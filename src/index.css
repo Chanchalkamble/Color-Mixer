@@ -1,0 +1,31 @@
+body {
+  background: #f7f7f7;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="range"] {
+  margin: 10px 0;
+}
+
+.container{
+    border: 1px solid black;
+    width:400px;
+    height:550px;
+    
+}
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
