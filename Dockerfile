@@ -14,6 +14,5 @@ COPY . .
 
 # Expose port 8080 for Cloud Run
 EXPOSE 8080
-
 # Start server
 CMD ["npm", "start"]
